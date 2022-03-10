@@ -1,12 +1,15 @@
 {
   "name": "alfa-test",
   "version": "0.1.0",
+  "homepage": "https://valdemm.github.io/Alfa-test/",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@alfalab/core-components": "^25.5.0",
@@ -26,6 +29,7 @@
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.13",
     "@types/react-redux": "^7.1.23",
+    "gh-pages": "^3.2.3",
     "typescript": "^4.6.2"
   },
   "eslintConfig": {
