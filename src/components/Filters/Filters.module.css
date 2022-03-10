@@ -1,0 +1,7 @@
+.Filters {
+  display: flex;
+  width: 960px;
+  margin: 0 auto 24px;
+
+  justify-content: flex-end;
+}
